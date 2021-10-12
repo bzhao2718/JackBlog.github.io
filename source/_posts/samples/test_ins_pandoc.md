@@ -35,7 +35,7 @@ This [tutorial on sustainable authorship in plan text](https://plain-text.co/pul
 
 csl and bibliography is needed for citation using the command below. csl specifies style and can be downloaded from like this [official citation style language repo](https://github.com/citation-style-language/styles).
 
-```
+```yaml
 bibliography: curr_zotero_bibtex2021.bib
 csl: curr_zotero_CSL_JSON2021.json
 link-citations: true
@@ -44,17 +44,17 @@ toc: true
 
 -C (or —citeproc) is needed for processing citations. 
 
-```
+```bash
 -f markdown -t latex -s -o currTest.pdf -C pandocTestcopy.md
 ```
 
-```
+```bash
 pandoc "document.md" -o "elegantTest2.pdf" --from markdown --listings --top-level-division="chapter" -s
 ```
 
 With the following for book document.md
 
-```
+```yaml
 title: "Example PDF"
 author: [Author]
 documentclass: elegantbook
@@ -70,11 +70,34 @@ lot: true
 
 For a folder content and there are several md files.
 
-```
+```bash
 pandoc -s -N --biblatex --listings --top-level-division=chapter --template=template.tex metadata.md content/*.md -o $1.tex
 ```
 
 Comment: I thin $1 here is for the first argument.
+
+This is a quick java code:
+
+```java
+public class MyTest
+{
+  public static void main(String[] args)
+  {
+    int i = 8;
+    int j = 10;
+    String s1 = "this is a string1";
+    System.out.println("this is s1: "+s1);
+  }
+  public static int myMethod(String s1)
+  {
+    if(s1.equals("s1"))
+      return 0;
+    return 1;
+  }
+}
+```
+
+
 
 ##### Beamer commands examples
 

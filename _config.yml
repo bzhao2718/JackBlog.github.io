@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Jack's Blog
+title: JackZhao's Blog
 subtitle: 'this is subtitle'
 description: 'the description of the site.'
 keywords:
@@ -97,7 +97,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: butterfly
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -133,3 +135,9 @@ mathjax:
 
 # plugins:
 #   - hexo-reference
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
