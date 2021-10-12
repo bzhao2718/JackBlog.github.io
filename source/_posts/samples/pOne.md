@@ -51,7 +51,7 @@ $$
 $$
 OK, now that I have a few labels, I’ll refer to equation 1 as  `$\eqref{eq1}$` like this Eq. $\eqref{eq1}$ And more. And eq2 as $\eqref{eq2}$ Over.
 
-Thesis a reference to [hello-world](./hello-world.md#testheaderref) file to the TestHeaderRef header.
+Thesis a reference to [./hello-world.md#testheaderref](./hello-world.md#testheaderref) file to the TestHeaderRef header.
 
 **What if there’s a white space between letters in the file name?**
 
@@ -61,7 +61,7 @@ Now to the [./test_ins_pandoc.md#filters](./test_ins_pandoc.md#filters) part.
 
 This refers to the id [the same task list with id](./test_ins_pandoc.md#task_lists_with_id) part. Yep, it’s working when add `Task lists {#task_lists_with_id}` manually set the id.
 
-Now cross ref to the first h3 as [the name of the first h3](#firsth3) part.
+Now cross ref to the first h3 as [the name of the first h3 #firsth3](#firsth3) part.
 
 {% blockquote %}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.
