@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Jack's Blog
+subtitle: 'this is subtitle'
+description: 'the description of the site.'
 keywords:
-author: John Doe
+author: Jack Zhao
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -103,3 +103,33 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+# renderer pandoc
+pandoc:
+    filters:
+      # - pandoc-crossref
+    extra:
+      - citeproc:
+      - filter: pandoc-crossref
+      - bibliography: "source/referenceAll.bib"
+    template:
+    meta:
+    # mathEngine: katex
+    # by default, pandoc uses mathjax
+    # also, using pandoc as the markdown renderer will pose some issues related to post tags
+    
+
+######## This is used for the Next themem, filter-mathjax
+## it seems that without this mathjax pluggin the equations are not rendered 
+## download instructions: https://github.com/next-theme/hexo-filter-mathjax
+mathjax:
+  tags: ams # or 'ams' or 'all'
+  single_dollars: true # enable single dollar signs as in-line math delimiters
+  cjk_width: 0.9 # relative CJK char width
+  normal_width: 0.6 # relative normal (monospace) width
+  append_css: true # add CSS to pages rendered by MathJax
+  every_page: true # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
+
+# plugins:
+#   - hexo-reference
