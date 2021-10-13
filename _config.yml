@@ -104,7 +104,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: https://bzhao2718.github.io/JackBlog.github.io/
+  branch: ghpages-butterfly
 
 
 # renderer pandoc
