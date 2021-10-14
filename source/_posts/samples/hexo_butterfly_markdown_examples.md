@@ -15,7 +15,7 @@ This should be the top text.
 
 This is a link a gif using pCloud share link:
 
-![image using pCloud link](https://c466.pcloud.com/dpZWXyAhnZkWOczwZUqBNZ7ZHJw7i7Z3VZZmRHZZHs3TMxd1sF7iCEXrFxANmXEfQ0Fy/image-20210807143253863.png)
+![image using pCloud link](https://c466.pcloud.com/dpZWXyAhnZkWOczwZUqBNZ7ZHJw7i7Z3VZZmRHZZHs3TMxd1sF7iCEXrFxANmXEfQ0Fy/image-20210807143253863.png "testfig"){#fig:test1}
 
 ### This is a header3
 
@@ -71,6 +71,12 @@ Now to the [./test_ins_pandoc.md#filters](./test_ins_pandoc.md#filters) part.
 This refers to the id [the same task list with id](./test_ins_pandoc.md#task_lists_with_id) part. Yep, it’s working when add `Task lists {#task_lists_with_id}` manually set the id.
 
 Now cross ref to the first h3 as [the name of the first h3](#firsth3) part.
+
+Now reference to the fig like this [#fig:test1](#fig:test1) and.
+
+Now use the name in quote (markdown it style) reference [testfig](#testfig);
+
+So <<testfig>> this seems to be the refenrense in markdown-it style.
 
 {% blockquote %}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.

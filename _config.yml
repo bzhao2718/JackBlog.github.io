@@ -108,19 +108,84 @@ deploy:
   repo: https://github.com/bzhao2718/JackBlog.github.io
   branch: ghpages-butterfly
 
+# markdown:
+#   preset: 'default'
+#   render:
+#     html: true
+#     xhtmlOut: false
+#     langPrefix: 'lang-'
+#     breaks: true
+#     linkify: true
+#     typographer: true
+#     quotes: '""'''
+#   enable_rules:
+#   disable_rules:
+#   plugins:
+#   anchors:
+#   level: 6
+#   collisionSuffix: ''
+#   permalink: false
+#   permalinkClass: 'header-anchor'
+#   permalinkSide: 'left'
+#   permalinkSymbol: '#'
+#   case: 0
+#   separator: '-'
 
+markdown:
+  preset: 'default'
+  render:
+    html: true
+    xhtmlOut: false
+    langPrefix: 'lang-'
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  enable_rules:
+  disable_rules:
+  plugins:
+    - markdown-it-footnote
+    - markdown-it-emoji
+    - markdown-it-container
+    - markdown-it-ins
+    - markdown-it-mark
+    - markdown-it-sub
+    - markdown-it-sup
+    - markdown-it-deflist
+    - markdown-it-anchor
+    - markdown-it-plantuml
+    - markdown-it-fontawesome
+    - markdown-it-cjk-breaks
+    - markdown-it-center-text
+    - markdown-it-attrs
+    - markdown-it-task-lists
+    - markdown-it-toc-done-right
+    - markdown-it-implicit-figures
+    - markdown-it-references
+    - markdown-it-mathjax
+
+  anchors:
+    level: 6
+    collisionSuffix: ''
+    permalink: false
+    permalinkClass: 'header-anchor'
+    permalinkSide: 'left'
+    permalinkSymbol: '¶'
+    case: 0
+    separator: '-'
+    
 # renderer pandoc
-pandoc:
-    extensions:
-      - '-implicit_figures'
-    filters:
-      # - pandoc-crossref
-    extra:
-      - citeproc:
-      - filter: pandoc-crossref
-      - bibliography: "source/referenceAll.bib"
-    template:
-    meta:
+# pandoc:
+#     extensions:
+#       - '-implicit_figures'
+#     filters:
+#       # - pandoc-crossref
+#     extra:
+#       - citeproc:
+#       - filter: pandoc-crossref
+#       - bibliography: "source/referenceAll.bib"
+#     template:
+#     meta:
     # mathEngine: katex
     # by default, pandoc uses mathjax
     # also, using pandoc as the markdown renderer will pose some issues related to post tags
@@ -140,7 +205,6 @@ mathjax:
 
 # plugins:
 #   - hexo-reference
-
 search:
   path: search.xml
   field: post
