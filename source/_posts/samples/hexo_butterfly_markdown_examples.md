@@ -60,19 +60,25 @@ $$
 $$
 OK, now that I have a few labels, I’ll refer to equation 1 as  `$\eqref{eq1}$` like this Eq. $\eqref{eq1}$ And more. And eq2 as $\eqref{eq2}$ Over.
 
-Thesis a reference to [hello-world](./hello-world.md#testheaderref) file to the TestHeaderRef header.
+### The link problem solved!
 
-This is a hard code link: [hard coded url](http://localhost:4000/JackBlog.github.io/samples/hello-world.md#testheaderref).
+Use double dot instead of a single dot. Also, when referencing an achor point, add a slash after the file name, and don’t add file type extension.
+
+Thesis a reference to [../hello-world/#testheaderref](../hello-world/#testheaderref) file to the TestHeaderRef header.
+
+This is a hard code link: [hard coded url](http://localhost:4000/JackBlog.github.io/samples/hello-world#testheaderref).
 
 **What if there’s a white space between letters in the file name?**
 
-Now to the [./test_ins_pandoc.md#filters](./test_ins_pandoc.md#filters) part.
+Now to the [../test_ins_pandoc/#filters](../test_ins_pandoc/#filters) part.
 
 ~~This links to the [./test_ins_pandoc.md#task_lists](./test_ins_pandoc.md#task%lists) with the header `Task lists`. Because there’s a space, not working.~~
 
-This refers to the id [the same task list with id](./test_ins_pandoc.md#task_lists_with_id) part. Yep, it’s working when add `Task lists {#task_lists_with_id}` manually set the id.
+This refers to the id [the same task list with id: ../test_ins_pandoc/#task_lists_with_id](../test_ins_pandoc/#task_lists_with_id) part. Yep, it’s working when add `Task lists {#task_lists_with_id}` manually set the id.
 
 Now cross ref to the first h3 as [the name of the first h3](#firsth3) part.
+
+Now refer to headers with spaces, I believe add `-` would work: [#this-is-a-header3](#this-is-a-header3).
 
 {% blockquote %}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.

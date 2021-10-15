@@ -43,7 +43,7 @@ In [signal processing](https://en.wikipedia.org/wiki/Signal_processing), **cross
 
 
 
-![first fig text.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Comparison_convolution_correlation.svg/400px-Comparison_convolution_correlation.svg.png){#fig:firstFig}
+![Description: first fig text.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Comparison_convolution_correlation.svg/400px-Comparison_convolution_correlation.svg.png){#fig:firstFig}
 
 # CS231n Notes
 

@@ -146,3 +146,20 @@ search:
   field: post
   content: true
   format: html
+
+
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - 'exclude1.com'
+    - 'exclude2.com'
+
+## https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+  # template: ./sitemap_template.xml
+  template: ./node_modules/hexo-generator-sitemap/sitemap.xml
+  rel: false
+  tags: true
+  categories: true
