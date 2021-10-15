@@ -585,10 +585,11 @@ beautify:
   enable: true
   field: post # site/post
   title-prefix-icon: '\f0c1'
-  # title-prefix-icon: 
-  title-prefix-icon-color: '#F47466'
+  # title-prefix-icon: '\f292'
+  # title-prefix-icon-color: '#F47466' # redish
+  title-prefix-icon-color: '#47AA51' #darker green
 # '\f0c1' is link icon
-# 
+# '\f292' is the pound sign
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
@@ -743,11 +744,11 @@ darkmode:
 
 # medium-zoom
 # https://github.com/francoischalifour/medium-zoom
-medium_zoom: true
+medium_zoom: false
 
 # fancybox
 # http://fancyapps.com/fancybox/3/
-fancybox: false
+fancybox: true
 
 ## check here to solve the dupicate fig caption issue: https://wylu.me/posts/7bd83fc5/
 # fancybox: 

@@ -62,6 +62,8 @@ OK, now that I have a few labels, I’ll refer to equation 1 as  `$\eqref{eq1}$`
 
 Thesis a reference to [hello-world](./hello-world.md#testheaderref) file to the TestHeaderRef header.
 
+This is a hard code link: [hard coded url](http://localhost:4000/JackBlog.github.io/samples/hello-world.md#testheaderref).
+
 **What if there’s a white space between letters in the file name?**
 
 Now to the [./test_ins_pandoc.md#filters](./test_ins_pandoc.md#filters) part.
