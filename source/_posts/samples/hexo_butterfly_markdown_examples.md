@@ -7,6 +7,8 @@ tags:
 categories: 
   MyMdCategory
 keywords: "myMdTest, testTutorial"
+bibliography: referenceAll.bib
+link-citations: true
 ---
 
 ### FirstH3
@@ -15,7 +17,7 @@ This should be the top text.
 
 This is a link a gif using pCloud share link:
 
-![image using pCloud link](https://c466.pcloud.com/dpZWXyAhnZkWOczwZUqBNZ7ZHJw7i7Z3VZZmRHZZHs3TMxd1sF7iCEXrFxANmXEfQ0Fy/image-20210807143253863.png)
+![image using pCloud link](https://c466.pcloud.com/dpZWXyAhnZoz5ObwZUqBNZ7Zrkuki7Z3VZZmRHZZTxPRSbrJfeBvwfii41HT0pQfUFL7/image-20210807143253863.png)
 
 ### This is a header3
 
@@ -99,6 +101,41 @@ This is a block quote from pandoc markdown.
 
 
 这是关于的一个测试test(no space in front)，这是一个中文 Chinese character(with space in front)，然后这是一个英文 English(with space)，Now(without space)总的来说。
+
+### Footnotes
+
+These are footnotes test. So the following are using `inline footnote ^[footnote text]` to auto generate the footnote number:
+
+This is an inline footnote ^[inline footnote.].
+
+This is another inline footnote ^[inline footnote.].
+
+This is one more inline footnote ^[inline footnote.].
+
+### citations
+
+Citation [@agarwal_neural_2020] and multiple author [@alguliev_multiple_2013; @allahyari_text_2017; @anchieta_sema_2019]. Should work.
+
+And ~~some~~ more texts. Also in text citation @anchieta_sema_2019 says something.
+
+Separate multiple citations using ;
+
+Also, add -C or —citeproc as an argument.
+
+Now citations as footnote:
+
+This is cite author `@agarwal_neural_2020`  using `^[([@agarwal_neural_2020])]` in foot ^[([@agarwal_neural_2020])].
+
+Now test another `^[@agarwal_neural_2020]` in foot ^[@agarwal_neural_2020].
+
+Now add some text: in foot ^[in footnote @agarwal_neural_2020]. Now cite with explicit footnote [^cite1]
+
+. And cite another with brackets [^cite2].
+
+[^cite1]: with brackets [@agarwal_neural_2020]. 
+[^cite2]: this is cite @agarwal_neural_2020 and over.
+
+
 
 ### Note box
 
