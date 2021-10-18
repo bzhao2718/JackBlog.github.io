@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Posts Statistics</title>
+    <url>/JackBlog.github.io/samples/folderOne/hexo_stats_chart/</url>
+    <content><![CDATA[<h3 id="this-is-a-test-of-the-hexo-statistics-charts">This is a test of the hexo-statistics-charts</h3>
+<p>Post Calendar:</p>
+<div id="posts-calendar">
+
+</div>
+<p>Post Statistics:</p>
+<div id="posts-chart">
+
+</div>
+<p>Tags statistics:</p>
+<div id="tags-chart" data-length="10">
+
+</div>
+<p>Category Statistics (without title)</p>
+<div id="categories-chart">
+
+</div>
+<p>Category Radar Chart (without title)</p>
+<div id="categories-radar">
+
+</div>
+<p>Over.</p>
+<script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">]]></content>
+  </entry>
+  <entry>
     <title>Demo Hexo Plugins</title>
     <url>/JackBlog.github.io/samples/folderOne/hexo_plugin_demo/</url>
-    <content><![CDATA[<h1 id="this-is-h1">This is H1</h1>
+    <content><![CDATA[<p>[TOC]</p>
+<h1 id="this-is-h1">This is H1</h1>
 <p>Text contents in heading 1.</p>
 <h2 id="heading-two">Heading Two</h2>
 <p>Text contents in heading 2.</p>
@@ -73,20 +101,18 @@
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">npm install hexo-oembed --save</span><br></pre></td></tr></tbody></table></figure>
 <p><strong>hexo-butterfly-charts</strong> : <a href="https://guole.fun/posts/18158/">使用 Charts 插件给 Butterfly 增加统计图表 | guole's Blog</a></p>
 <p>Here’s a chart (it is hidden from Typora): <code>&lt;div id="posts-chart"&gt;&lt;/div&gt;</code></p>
-<div id="posts-chart">
-
-</div>
+<p>Not used anymore.</p>
 <p><strong>hexo-tag-map</strong>: <a href="https://guole.fun/posts/41887/">使用 Hexo-tag-map 插件，给文章插入高德百度谷歌等 5 类 9 种地图 | guole's Blog</a></p>
 <h3 id="hexo-tag-chart">hexo-tag-chart</h3>
 <p><a href="https://github.com/Shen-Yu/hexo-tag-chart">shen-yu/hexo-tag-chart: Insert Chartjs in Hexo by using tags. 📈</a></p>
 <p>With this code:</p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">{% chart 80% 300 %}</span><br><span class="line">{</span><br><span class="line">    type: 'line',</span><br><span class="line">    data: {</span><br><span class="line">        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],</span><br><span class="line">        datasets: [{</span><br><span class="line">            label: 'My First dataset',</span><br><span class="line">            backgroundColor: 'rgb(255, 99, 132)',</span><br><span class="line">            borderColor: 'rgb(255, 99, 132)',</span><br><span class="line">            data: [0, 10, 5, 2, 20, 30, 45]</span><br><span class="line">        }]</span><br><span class="line">    },</span><br><span class="line">    options: {</span><br><span class="line">        responsive: true,</span><br><span class="line">        title: {</span><br><span class="line">            display: true,</span><br><span class="line">            text: 'Chart.js Line Chart'</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">};</span><br><span class="line">{% endchart %}</span><br></pre></td></tr></tbody></table></figure>
 <div style="width: 80%;margin: 0 auto">
-    <canvas id="chart877" style="height: 300px"></canvas>
+    <canvas id="chart6019" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart877').getContext('2d');
+    var ctx = document.getElementById('chart6019').getContext('2d');
     var options = {
     type: 'line',
     data: {
@@ -116,7 +142,7 @@
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/exporting.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/annotations.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/oldie.js"></script>
-        <div id="highchartsuuid62030506511934167" width="85%" height="400"></div>
+        <div id="highchartsuuid1122530258309011" width="85%" height="400"></div>
         <script>
             var op = Object.assign({
     chart: {
@@ -205,11 +231,11 @@
                         } else {
                             op.series = res;
                         }
-                        var chart = Highcharts.chart(highchartsuuid62030506511934167,op);
+                        var chart = Highcharts.chart(highchartsuuid1122530258309011,op);
                     }
                 })
             }else{
-                var chart = Highcharts.chart(highchartsuuid62030506511934167,op);
+                var chart = Highcharts.chart(highchartsuuid1122530258309011,op);
             }
         </script>
     
@@ -224,7 +250,7 @@
 <h3 id="hexo-tag-youtube-responsive">hexo-tag-youtube-responsive</h3>
 <p><a href="https://github.com/quocvu/hexo-tag-youtube-responsive">quocvu/hexo-tag-youtube-responsive: Hexo tag plugin to embed a Youtube video that auto resizes with your responsive layout</a></p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">{% youtuber U3ASj1L6_sY %}</span><br><span class="line">{% endyoutuber %}</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
-<p>Must have the 2 required arguments such as {% youtuber video VIDEO_ID %}</p>
+Must have the 2 required arguments such as {% youtuber video VIDEO_ID %}
 <h3 id="npm-install-heowchexo-tag-gdemo">npm install <span class="citation" data-cites="heowc/hexo-tag-gdemo">[@heowc/hexo-tag-gdemo]</span></h3>
 <p><a href="https://github.com/heowc/hexo-tag-gdemo">heowc/hexo-tag-gdemo: glorious-demo tag plugin for Hexo</a></p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">{% gdemo_terminal 'node ./demo' '250px' 'bash' '500' '$' 'demo-teriminal' %}</span><br><span class="line">Hello World!</span><br><span class="line">{% endgdemo_terminal %}</span><br></pre></td></tr></tbody></table></figure>
@@ -257,13 +283,13 @@ new GDemo('#demo-editor')
 <h3 id="npm-i-hexo-tag-wikipedia---save">npm i hexo-tag-wikipedia --save</h3>
 <p><a href="https://github.com/tuanna-hsp/hexo-tag-wikipedia">tuanna-hsp/hexo-tag-wikipedia: Wikipedia tag plugin for your Hexo post</a></p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">{% wikipedia title:GitHub wikiButton:true %}</span><br></pre></td></tr></tbody></table></figure>
-<blockquote id="28551"><script>
+<blockquote id="87335"><script>
     window.addEventListener('load', function() {
       $.getJSON('https://en.wikipedia.org/w/api.php?action=query&origin=*&prop=extracts&format=json&exintro=&titles=GitHub', function(result) {
         const pages = result.query.pages;
         const firstPageIndex = Object.keys(pages)[0];
         const extract = pages[firstPageIndex].extract;
-        $('#28551').prepend(extract);
+        $('#87335').prepend(extract);
       });
     });
   </script><p><a href="https://en.wikipedia.org/wiki/GitHub">Wikipedia</a></p></blockquote>
@@ -300,14 +326,14 @@ new GDemo('#demo-editor')
 <img class="kroki" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8IS0tIEdlbmVyYXRlZCBieSBncmFwaHZpeiB2ZXJzaW9uIDIuNDQuMCAoKQogLS0+CjwhLS0gVGl0bGU6IEQgUGFnZXM6IDEgLS0+Cjxzdmcgd2lkdGg9IjY0NnB0IiBoZWlnaHQ9IjE3N3B0Igogdmlld0JveD0iMC4wMCAwLjAwIDY0Ni4wMCAxNzcuMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgo8ZyBpZD0iZ3JhcGgwIiBjbGFzcz0iZ3JhcGgiIHRyYW5zZm9ybT0ic2NhbGUoMSAxKSByb3RhdGUoMCkgdHJhbnNsYXRlKDQgMTczKSI+Cjx0aXRsZT5EPC90aXRsZT4KPHBvbHlnb24gZmlsbD0id2hpdGUiIHN0cm9rZT0idHJhbnNwYXJlbnQiIHBvaW50cz0iLTQsNCAtNCwtMTczIDY0MiwtMTczIDY0Miw0IC00LDQiLz4KPGcgaWQ9ImNsdXN0MSIgY2xhc3M9ImNsdXN0ZXIiPgo8dGl0bGU+Y2x1c3Rlcl9wPC90aXRsZT4KPHBvbHlnb24gZmlsbD0ibm9uZSIgc3Ryb2tlPSJibGFjayIgcG9pbnRzPSI4LC04IDgsLTE2MSA2MzAsLTE2MSA2MzAsLTggOCwtOCIvPgo8dGV4dCB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB4PSIzMTkiIHk9Ii0xNDUuOCIgZm9udC1mYW1pbHk9IlRpbWVzLHNlcmlmIiBmb250LXNpemU9IjE0LjAwIj5Lcm9raTwvdGV4dD4KPC9nPgo8ZyBpZD0iY2x1c3QyIiBjbGFzcz0iY2x1c3RlciI+Cjx0aXRsZT5jbHVzdGVyX2MxPC90aXRsZT4KPHBvbHlnb24gZmlsbD0ibm9uZSIgc3Ryb2tlPSJibGFjayIgcG9pbnRzPSIxMTIsLTE2IDExMiwtMTMwIDYyMiwtMTMwIDYyMiwtMTYgMTEyLC0xNiIvPgo8dGV4dCB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB4PSIzNjciIHk9Ii0xMTQuOCIgZm9udC1mYW1pbHk9IlRpbWVzLHNlcmlmIiBmb250LXNpemU9IjE0LjAwIj5TZXJ2ZXI8L3RleHQ+CjwvZz4KPGcgaWQ9ImNsdXN0MyIgY2xhc3M9ImNsdXN0ZXIiPgo8dGl0bGU+Y2x1c3Rlcl9nY18xPC90aXRsZT4KPHBvbHlnb24gZmlsbD0ibm9uZSIgc3Ryb2tlPSJibGFjayIgcG9pbnRzPSI1MTksLTI0IDUxOSwtOTkgNjE0LC05OSA2MTQsLTI0IDUxOSwtMjQiLz4KPHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iNTY2LjUiIHk9Ii04My44IiBmb250LWZhbWlseT0iVGltZXMsc2VyaWYiIGZvbnQtc2l6ZT0iMTQuMDAiPkRvY2tlci9TZXJ2ZXI8L3RleHQ+CjwvZz4KPGcgaWQ9ImNsdXN0NCIgY2xhc3M9ImNsdXN0ZXIiPgo8dGl0bGU+Y2x1c3Rlcl9nY18yPC90aXRsZT4KPHBvbHlnb24gZmlsbD0ibm9uZSIgc3Ryb2tlPSJibGFjayIgcG9pbnRzPSIyMDksLTI0IDIwOSwtOTkgNTExLC05OSA1MTEsLTI0IDIwOSwtMjQiLz4KPHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iMzYwIiB5PSItODMuOCIgZm9udC1mYW1pbHk9IlRpbWVzLHNlcmlmIiBmb250LXNpemU9IjE0LjAwIj5Eb2NrZXIvTWVybWFpZDwvdGV4dD4KPC9nPgo8ZyBpZD0iY2x1c3Q1IiBjbGFzcz0iY2x1c3RlciI+Cjx0aXRsZT5jbHVzdGVyX2MyPC90aXRsZT4KPHBvbHlnb24gZmlsbD0ibm9uZSIgc3Ryb2tlPSJibGFjayIgcG9pbnRzPSIxNiwtMjQgMTYsLTk5IDEwNCwtOTkgMTA0LC0yNCAxNiwtMjQiLz4KPHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iNjAiIHk9Ii04My44IiBmb250LWZhbWlseT0iVGltZXMsc2VyaWYiIGZvbnQtc2l6ZT0iMTQuMDAiPkNMSTwvdGV4dD4KPC9nPgo8IS0tIEZpbGViZWF0IC0tPgo8ZyBpZD0ibm9kZTEiIGNsYXNzPSJub2RlIj4KPHRpdGxlPkZpbGViZWF0PC90aXRsZT4KPGVsbGlwc2UgZmlsbD0ibm9uZSIgc3Ryb2tlPSJibGFjayIgY3g9IjE2MCIgY3k9Ii01MCIgcng9IjM5Ljc5IiByeT0iMTgiLz4KPHRleHQgdGV4dC1hbmNob3I9Im1pZGRsZSIgeD0iMTYwIiB5PSItNDYuMyIgZm9udC1mYW1pbHk9IlRpbWVzLHNlcmlmIiBmb250LXNpemU9IjE0LjAwIj5GaWxlYmVhdDwvdGV4dD4KPC9nPgo8IS0tIEphdmEgLS0+CjxnIGlkPSJub2RlMiIgY2xhc3M9Im5vZGUiPgo8dGl0bGU+SmF2YTwvdGl0bGU+CjxlbGxpcHNlIGZpbGw9Im5vbmUiIHN0cm9rZT0iYmxhY2siIGN4PSI1NjYiIGN5PSItNTAiIHJ4PSIyNyIgcnk9IjE4Ii8+Cjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjU2NiIgeT0iLTQ2LjMiIGZvbnQtZmFtaWx5PSJUaW1lcyxzZXJpZiIgZm9udC1zaXplPSIxNC4wMCI+SmF2YTwvdGV4dD4KPC9nPgo8IS0tIE5vZGUuanMgLS0+CjxnIGlkPSJub2RlMyIgY2xhc3M9Im5vZGUiPgo8dGl0bGU+Tm9kZS5qczwvdGl0bGU+CjxlbGxpcHNlIGZpbGw9Im5vbmUiIHN0cm9rZT0iYmxhY2siIGN4PSI0NjQiIGN5PSItNTAiIHJ4PSIzOC45OSIgcnk9IjE4Ii8+Cjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ2NCIgeT0iLTQ2LjMiIGZvbnQtZmFtaWx5PSJUaW1lcyxzZXJpZiIgZm9udC1zaXplPSIxNC4wMCI+Tm9kZS5qczwvdGV4dD4KPC9nPgo8IS0tIFB1cHBldGVlciAtLT4KPGcgaWQ9Im5vZGU0IiBjbGFzcz0ibm9kZSI+Cjx0aXRsZT5QdXBwZXRlZXI8L3RpdGxlPgo8ZWxsaXBzZSBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBjeD0iMzYxIiBjeT0iLTUwIiByeD0iNDYuMjkiIHJ5PSIxOCIvPgo8dGV4dCB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB4PSIzNjEiIHk9Ii00Ni4zIiBmb250LWZhbWlseT0iVGltZXMsc2VyaWYiIGZvbnQtc2l6ZT0iMTQuMDAiPlB1cHBldGVlcjwvdGV4dD4KPC9nPgo8IS0tIENocm9tZSAtLT4KPGcgaWQ9Im5vZGU1IiBjbGFzcz0ibm9kZSI+Cjx0aXRsZT5DaHJvbWU8L3RpdGxlPgo8ZWxsaXBzZSBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBjeD0iMjU3IiBjeT0iLTUwIiByeD0iMzkuNzkiIHJ5PSIxOCIvPgo8dGV4dCB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB4PSIyNTciIHk9Ii00Ni4zIiBmb250LWZhbWlseT0iVGltZXMsc2VyaWYiIGZvbnQtc2l6ZT0iMTQuMDAiPkNocm9tZTwvdGV4dD4KPC9nPgo8IS0tIEdvbGFuZyAtLT4KPGcgaWQ9Im5vZGU2IiBjbGFzcz0ibm9kZSI+Cjx0aXRsZT5Hb2xhbmc8L3RpdGxlPgo8ZWxsaXBzZSBmaWxsPSJub25lIiBzdHJva2U9ImJsYWNrIiBjeD0iNjAiIGN5PSItNTAiIHJ4PSIzNi4yOSIgcnk9IjE4Ii8+Cjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjYwIiB5PSItNDYuMyIgZm9udC1mYW1pbHk9IlRpbWVzLHNlcmlmIiBmb250LXNpemU9IjE0LjAwIj5Hb2xhbmc8L3RleHQ+CjwvZz4KPC9nPgo8L3N2Zz4K">
 <h3 id="npm-install-hexo-markmap---save">npm install hexo-markmap --save</h3>
 <p><a href="https://github.com/MaxChang3/hexo-markmap">MaxChang3/hexo-markmap: A hexo plugin insert mindmap in your hexo blog by markmap (new rebuild). 在 hexo 博客中插入思维导图。</a></p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">{% markmap 300px %}</span><br><span class="line"># Testa</span><br><span class="line">## test1</span><br><span class="line">## test2</span><br><span class="line"># Testb</span><br><span class="line">## test1</span><br><span class="line">## test2</span><br><span class="line">{%endmarkmap%}</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
-<div class="markmap-container" style="height:300px">
-                <svg class="markmap-svg">{"t":"root","d":0,"v":"","c":[{"t":"heading","d":1,"p":{"lines":[0,1]},"v":"Testa","c":[{"t":"heading","d":2,"p":{"lines":[1,2]},"v":"test1"},{"t":"heading","d":2,"p":{"lines":[2,3]},"v":"test2"}]},{"t":"heading","d":1,"p":{"lines":[3,4]},"v":"Testb","c":[{"t":"heading","d":2,"p":{"lines":[4,5]},"v":"test1"},{"t":"heading","d":2,"p":{"lines":[5,6]},"v":"test2"}]}],"p":{}}</svg>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">{% markmap 400px %}</span><br><span class="line"># Testa</span><br><span class="line">## test1</span><br><span class="line">### sub1_One</span><br><span class="line">### sub1_Two</span><br><span class="line">### sub1_Three</span><br><span class="line">## test2</span><br><span class="line">### sub2_One</span><br><span class="line">## test3</span><br><span class="line">### sub3_One</span><br><span class="line">### sub3_Two</span><br><span class="line">## test4</span><br><span class="line"># Testb</span><br><span class="line">## test1</span><br><span class="line">## test2</span><br><span class="line"># TestC</span><br><span class="line">## testsubC1</span><br><span class="line">## testsubC2</span><br><span class="line">### subC_One</span><br><span class="line">### subC_One</span><br><span class="line">### subC_One</span><br><span class="line">### subC_One</span><br><span class="line">### subC_One</span><br><span class="line">{%endmarkmap%}</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
+<div class="markmap-container" style="height:400px">
+                <svg class="markmap-svg">{"t":"root","d":0,"v":"","c":[{"t":"heading","d":1,"p":{"lines":[0,1]},"v":"Testa","c":[{"t":"heading","d":2,"p":{"lines":[1,2]},"v":"test1","c":[{"t":"heading","d":3,"p":{"lines":[2,3]},"v":"sub1_One"},{"t":"heading","d":3,"p":{"lines":[3,4]},"v":"sub1_Two"},{"t":"heading","d":3,"p":{"lines":[4,5]},"v":"sub1_Three"}]},{"t":"heading","d":2,"p":{"lines":[5,6]},"v":"test2","c":[{"t":"heading","d":3,"p":{"lines":[6,7]},"v":"sub2_One"}]},{"t":"heading","d":2,"p":{"lines":[7,8]},"v":"test3","c":[{"t":"heading","d":3,"p":{"lines":[8,9]},"v":"sub3_One"},{"t":"heading","d":3,"p":{"lines":[9,10]},"v":"sub3_Two"}]},{"t":"heading","d":2,"p":{"lines":[10,11]},"v":"test4"}]},{"t":"heading","d":1,"p":{"lines":[11,12]},"v":"Testb","c":[{"t":"heading","d":2,"p":{"lines":[12,13]},"v":"test1"},{"t":"heading","d":2,"p":{"lines":[13,14]},"v":"test2"}]},{"t":"heading","d":1,"p":{"lines":[14,15]},"v":"TestC","c":[{"t":"heading","d":2,"p":{"lines":[15,16]},"v":"testsubC1"},{"t":"heading","d":2,"p":{"lines":[16,17]},"v":"testsubC2","c":[{"t":"heading","d":3,"p":{"lines":[17,18]},"v":"subC_One"},{"t":"heading","d":3,"p":{"lines":[18,19]},"v":"subC_One"},{"t":"heading","d":3,"p":{"lines":[19,20]},"v":"subC_One"},{"t":"heading","d":3,"p":{"lines":[20,21]},"v":"subC_One"},{"t":"heading","d":3,"p":{"lines":[21,22]},"v":"subC_One"}]}]}],"p":{}}</svg>
               </div>
 <h3 id="npm-install-hexo-simple-mindmap">npm install hexo-simple-mindmap</h3>
 <p><a href="https://github.com/HunterXuan/hexo-simple-mindmap">HunterXuan/hexo-simple-mindmap: Hexo Plugin: Display mindmap in post</a></p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">{% pullquote mindmap mindmap-lg %}</span><br><span class="line">- [在 Hexo 中使用思维导图](https://hunterx.xyz/use-mindmap-in-hexo.html)</span><br><span class="line">  - 前言</span><br><span class="line">  - 操作指南</span><br><span class="line">    - 准备需要的文件</span><br><span class="line">    - 为主题添加 CSS/JS 文件</span><br><span class="line">  - 使用方法</span><br><span class="line">{% endpullquote %}</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
-<p>使用 Hexo 的 pullquote 将思维导图的内容包裹起来，<code>mindmap</code> 是思维导图渲染的标志，尺寸有三种规格：<code>mindmap-sm</code>、<code>mindmap-md</code> 和 <code>mindmap-lg</code>。</p>
+<p>使用 Hexo 的 pullquote 将思维导图的内容包裹起来，<code>mindmap</code> 是思维导图渲染的标志，尺寸有三种规格：<code>mindmap-sm</code>、<code>mindmap-md</code> 和 <code>mindmap-lg</code>.</p>
 <p>The following using sm.</p>
 <blockquote class="pullquote mindmap mindmap-sm"><ul>
 <li><a href="https://hunterx.xyz/use-mindmap-in-hexo.html">在 Hexo 中使用思维导图</a>
@@ -322,20 +348,7 @@ new GDemo('#demo-editor')
 </ul></li>
 </ul>
 </blockquote>
-<p>The following is using bl.</p>
-<blockquote class="pullquote mindmap mindmap-lg"><ul>
-<li><a href="https://hunterx.xyz/use-mindmap-in-hexo.html">在 Hexo 中使用思维导图</a>
-<ul>
-<li>前言</li>
-<li>操作指南
-<ul>
-<li>准备需要的文件</li>
-<li>为主题添加 CSS/JS 文件</li>
-</ul></li>
-<li>使用方法</li>
-</ul></li>
-</ul>
-</blockquote>
+<p>The issue is caused by <code>blockquote.pullquote</code> max-width:45%. Haven’t gotten time to figure out a solution yet, see here: <a href="https://hunterx.xyz/use-mindmap-in-hexo.html">在 Hexo 中使用思维导图 | 猎人杂货铺</a> the comments “改了一下 width:100% 就行了”.</p>
 <h3 id="npm-install-hexo-generator-alias---save">npm install hexo-generator-alias --save</h3>
 <p><a href="https://github.com/hexojs/hexo-generator-alias">hexojs/hexo-generator-alias: Generate alias pages for redirecting to posts, pages or URL</a></p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">source/cv/index.md</span><br><span class="line">---</span><br><span class="line">title: some title</span><br><span class="line">date: some date</span><br><span class="line">+ alias: about/index.html</span><br><span class="line"></span><br><span class="line">+ alias:</span><br><span class="line">+ - foo/index.html</span><br><span class="line">+ - bar/index.html</span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
@@ -377,10 +390,36 @@ See the Pen <a href="https://codepen.io/yuanchuan/pen/mKEmpj/">Flow #1</a> by yu
 <p>Surprisingly, this will show in Typora editor as well.</p>
 <p>Set codeine properties in <em>config.yml file</em>:</p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">codepen:</span><br><span class="line">  userId: "yuanchuan"</span><br><span class="line">  theme: "33713"</span><br><span class="line">  default_tabs: "js,result"</span><br><span class="line">  height: 500</span><br><span class="line">  width: "100%"</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="npm-install-hexo-butterfly-charts---save">npm install hexo-butterfly-charts --save</h3>
+<p>Not used. Use the hexo-statistics-charts instead. It seems it doesn't scale well on mobile Devices.</p>
+<p><a href="https://github.com/kuole-o/hexo-butterfly-charts">kuole-o/hexo-butterfly-charts: https://guole.fun/</a></p>
+<p><a href="https://guole.fun/posts/18158/">欢迎回来！使用 Charts 插件给 Butterfly 增加统计图表 | guole's Blog</a></p>
+<h3 id="npm-install---save-hexo-statistics-charts">npm install --save hexo-statistics-charts</h3>
+<p><a href="https://www.npmjs.com/package/hexo-statistics-charts">hexo-statistics-charts - npm</a></p>
+<p>This is a post statistics test in this post.</p>
+<div id="posts-chart">
+
+</div>
+<p>Go to this file to see more: <a href="../hexo_stats_chart">../hexo_stats_chart</a></p>
+<h3 id="testing-markdown-insert">Testing markdown insert</h3>
+<p><strong>This doesn't seem to work. Why ?</strong></p>
+<p>This is inserted from the hexo-statistics-charts file.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">{% insertmd _posts/samples/folderOne/hexo_inserted_test.md '---' %}</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="hexo-filter-date-from-git-not-used-yet">hexo-filter-date-from-git (NOT USED YET)</h3>
+<p><a href="https://github.com/xcatliu/hexo-filter-date-from-git">xcatliu/hexo-filter-date-from-git: Read git log and overwrite the front-matter properties <code>date</code> and <code>updated</code> for each posts</a></p>
+<p>This is not used but can try it later.</p>
+<h3 id="npm-install-hexo-email-obfuscate---save-not-used">npm install hexo-email-obfuscate --save (NOT USED)</h3>
+<p>It seems to cause some server errors.</p>
+<p><a href="https://github.com/TimMensch/hexo-email-obfuscate">TimMensch/hexo-email-obfuscate: Hide email addresses from web crawlers</a></p>
+<p>If Hexo automatically detects all of your plugins, that's all.</p>
+<p>If that is not the case, register the plugin in your <code>_config.yml</code> file :</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">plugins:</span><br><span class="line">  - hexo-email-obfuscate</span><br></pre></td></tr></tbody></table></figure>
+<p>Syntax:</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">[Contact Me](mailto:foo@bar.com)</span><br></pre></td></tr></tbody></table></figure>
 <h3 id="installs">Installs</h3>
 <p>The <code>sticky</code> parameter in the post <a href="https://hexo.io/docs/front-matter">Front-matter</a> will be used to pin the post to the top of the index page. Higher <code>sticky</code> means that it will be ranked first.</p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">date: 2013/7/13 20:46:25</span><br><span class="line">sticky: 100</span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
-<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">npm install hexo-butterfly-charts --save</span><br><span class="line">npm i hexo-tag-map --save</span><br><span class="line">npm install hexo-tag-chart --save</span><br><span class="line">npm install hexo-highcharts --save</span><br><span class="line">npm install hexo-insert-markdown --save</span><br><span class="line">npm install hexo-tag-youtube-responsive --save</span><br><span class="line">npm install @heowc/hexo-tag-gdemo</span><br><span class="line">npm i hexo-tag-wikipedia --save</span><br><span class="line">npm install --save hexo-filter-flowchart</span><br><span class="line">npm install --save hexo-filter-sequence</span><br><span class="line">npm install --save hexo-filter-kroki</span><br><span class="line">npm install hexo-markmap --save</span><br><span class="line">npm install hexo-simple-mindmap</span><br><span class="line">npm install hexo-generator-alias --save</span><br><span class="line">npm install hexo-generator-readme-file --save</span><br><span class="line">npm install --save hexo-blog-encrypt</span><br><span class="line">npm install hexo-hide-posts --save</span><br><span class="line">npm install hexo-generator-i18n --save</span><br><span class="line">npm install hexo-uuid --save</span><br><span class="line">npm i hexo-draft-tags</span><br><span class="line">npm install hexo-codepen-v2 --save</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">npm install --save hexo-statistics-charts</span><br><span class="line">npm i hexo-tag-map --save</span><br><span class="line">npm install hexo-tag-chart --save</span><br><span class="line">npm install hexo-highcharts --save</span><br><span class="line">npm install hexo-insert-markdown --save</span><br><span class="line">npm install hexo-tag-youtube-responsive --save</span><br><span class="line">npm install @heowc/hexo-tag-gdemo</span><br><span class="line">npm i hexo-tag-wikipedia --save</span><br><span class="line">npm install --save hexo-filter-flowchart</span><br><span class="line">npm install --save hexo-filter-sequence</span><br><span class="line">npm install --save hexo-filter-kroki</span><br><span class="line">npm install hexo-markmap --save</span><br><span class="line">npm install hexo-simple-mindmap</span><br><span class="line">npm install hexo-generator-alias --save</span><br><span class="line">npm install hexo-generator-readme-file --save</span><br><span class="line">npm install --save hexo-blog-encrypt</span><br><span class="line">npm install hexo-hide-posts --save</span><br><span class="line">npm install hexo-generator-i18n --save</span><br><span class="line">npm install hexo-uuid --save</span><br><span class="line">npm i hexo-draft-tags</span><br><span class="line">npm install hexo-codepen-v2 --save</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
 Go to <a href="#not-used">not used section</a>.
 <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script>
@@ -421,6 +460,23 @@ c2(no)-&gt;op2-&gt;e</textarea><textarea id="flowchart-1-options" style="display
 <textarea id="sequence-0-code" style="display: none">Alice-&gt;Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
 Bob--&gt;Alice: I am good thanks!</textarea><textarea id="sequence-0-options" style="display: none">{"theme":"simple","scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("sequence-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("sequence-0-options").value));  var diagram = Diagram.parse(code);  diagram.drawSVG("sequence-0", options);</script>
+
+  <style>.markmap-container{display:flex;justify-content:center;margin:0 auto;width:90%;height:500px}.markmap-container svg{width:100%;height:100%}@media(max-width:768px){.markmap-container{height:400px}}</style>
+  <script src="https://cdn.jsdelivr.net/npm/d3@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.7.4/dist/browser/view.min.js"></script>
+  <script>
+    const mindmaps = document.querySelectorAll('.markmap-svg');
+    for(let mindmap of mindmaps) {
+        markmap.markmap(mindmap, JSON.parse(mindmap.innerHTML));
+    }
+  </script> <script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.7.0/dist/mindmap.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>markmap Test</title>
+    <url>/JackBlog.github.io/samples/folderOne/markmap_test/</url>
+    <content><![CDATA[<div class="markmap-container" style="height:400px">
+                <svg class="markmap-svg">{"t":"root","d":0,"v":"","c":[{"t":"heading","d":1,"p":{"lines":[0,1]},"v":"Testa","c":[{"t":"heading","d":2,"p":{"lines":[1,2]},"v":"test1","c":[{"t":"heading","d":3,"p":{"lines":[2,3]},"v":"sub1_One"},{"t":"heading","d":3,"p":{"lines":[3,4]},"v":"sub1_Two"},{"t":"heading","d":3,"p":{"lines":[4,5]},"v":"sub1_Three"}]},{"t":"heading","d":2,"p":{"lines":[5,6]},"v":"test2","c":[{"t":"heading","d":3,"p":{"lines":[6,7]},"v":"sub2_One"}]},{"t":"heading","d":2,"p":{"lines":[7,8]},"v":"test3","c":[{"t":"heading","d":3,"p":{"lines":[8,9]},"v":"sub3_One"},{"t":"heading","d":3,"p":{"lines":[9,10]},"v":"sub3_Two"}]},{"t":"heading","d":2,"p":{"lines":[10,11]},"v":"test4"}]},{"t":"heading","d":1,"p":{"lines":[11,12]},"v":"Testb","c":[{"t":"heading","d":2,"p":{"lines":[12,13]},"v":"test1"},{"t":"heading","d":2,"p":{"lines":[13,14]},"v":"test2"}]},{"t":"heading","d":1,"p":{"lines":[14,15]},"v":"TestC","c":[{"t":"heading","d":2,"p":{"lines":[15,16]},"v":"testsubC1"},{"t":"heading","d":2,"p":{"lines":[16,17]},"v":"testsubC2","c":[{"t":"heading","d":3,"p":{"lines":[17,18]},"v":"subC_One"},{"t":"heading","d":3,"p":{"lines":[18,19]},"v":"subC_One"},{"t":"heading","d":3,"p":{"lines":[19,20]},"v":"subC_One"},{"t":"heading","d":3,"p":{"lines":[20,21]},"v":"subC_One"},{"t":"heading","d":3,"p":{"lines":[21,22]},"v":"subC_One"}]}]}],"p":{}}</svg>
+              </div>
 
   <style>.markmap-container{display:flex;justify-content:center;margin:0 auto;width:90%;height:500px}.markmap-container svg{width:100%;height:100%}@media(max-width:768px){.markmap-container{height:400px}}</style>
   <script src="https://cdn.jsdelivr.net/npm/d3@5"></script>
