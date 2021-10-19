@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://bzhao2718.github.io/JackBlog.github.io/samples/folderOne/demo-tags-plus/</loc>
+    
+    <lastmod>2021-10-19</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://bzhao2718.github.io/JackBlog.github.io/samples/folderOne/hexo_plugin_demo/</loc>
     
-    <lastmod>2021-10-17</lastmod>
+    <lastmod>2021-10-19</lastmod>
     
   </url>
   
@@ -137,7 +144,7 @@
 
   <url>
     <loc>https://bzhao2718.github.io/JackBlog.github.io</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -145,28 +152,35 @@
   
   <url>
     <loc>https://bzhao2718.github.io/JackBlog.github.io/tags/EncryptTest/</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://bzhao2718.github.io/JackBlog.github.io/tags/TestMarkdown/</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://bzhao2718.github.io/JackBlog.github.io/tags/TutorialTest/</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://bzhao2718.github.io/JackBlog.github.io/tags/TestEquations/</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bzhao2718.github.io/JackBlog.github.io/tags/demo/</loc>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -175,21 +189,21 @@
   
   <url>
     <loc>https://bzhao2718.github.io/JackBlog.github.io/categories/EncrypteCategory/</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://bzhao2718.github.io/JackBlog.github.io/categories/MyMdCategory/</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://bzhao2718.github.io/JackBlog.github.io/categories/MyTestCategory/</loc>
-    <lastmod>2021-10-18</lastmod>
+    <lastmod>2021-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
