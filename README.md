@@ -1,5 +1,5 @@
 ### **2021-10** (12)  
-- 2021-10-19 [Demo Tags Plugin Plus](https://bzhao2718.github.io/JackBlog.github.io/samples/folderOne/demo-tags-plus/)  
+- 2021-10-19 [Demo Hexo Tags Plugin Plus](https://bzhao2718.github.io/JackBlog.github.io/en/hexo-examples/demo-tags-plus/)  
 - 2021-10-17 [Posts Statistics](https://bzhao2718.github.io/JackBlog.github.io/samples/folderOne/hexo_stats_chart/)  
 - 2021-10-16 [Demo Hexo Plugins](https://bzhao2718.github.io/JackBlog.github.io/samples/folderOne/hexo_plugin_demo/)  
 - 2021-10-14 [markmap Test](https://bzhao2718.github.io/JackBlog.github.io/samples/folderOne/markmap_test/)  
