@@ -288,11 +288,11 @@
 <p>With this code:</p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">{% chart 80% 300 %}</span><br><span class="line">{</span><br><span class="line">    type: 'line',</span><br><span class="line">    data: {</span><br><span class="line">        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],</span><br><span class="line">        datasets: [{</span><br><span class="line">            label: 'My First dataset',</span><br><span class="line">            backgroundColor: 'rgb(255, 99, 132)',</span><br><span class="line">            borderColor: 'rgb(255, 99, 132)',</span><br><span class="line">            data: [0, 10, 5, 2, 20, 30, 45]</span><br><span class="line">        }]</span><br><span class="line">    },</span><br><span class="line">    options: {</span><br><span class="line">        responsive: true,</span><br><span class="line">        title: {</span><br><span class="line">            display: true,</span><br><span class="line">            text: 'Chart.js Line Chart'</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">};</span><br><span class="line">{% endchart %}</span><br></pre></td></tr></tbody></table></figure>
 <div style="width: 80%;margin: 0 auto">
-    <canvas id="chart6622" style="height: 300px"></canvas>
+    <canvas id="chart2113" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart6622').getContext('2d');
+    var ctx = document.getElementById('chart2113').getContext('2d');
     var options = {
     type: 'line',
     data: {
@@ -322,7 +322,7 @@
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/exporting.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/annotations.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/oldie.js"></script>
-        <div id="highchartsuuid31333569355462676" width="85%" height="400"></div>
+        <div id="highchartsuuid41451381176004524" width="85%" height="400"></div>
         <script>
             var op = Object.assign({
     chart: {
@@ -411,11 +411,11 @@
                         } else {
                             op.series = res;
                         }
-                        var chart = Highcharts.chart(highchartsuuid31333569355462676,op);
+                        var chart = Highcharts.chart(highchartsuuid41451381176004524,op);
                     }
                 })
             }else{
-                var chart = Highcharts.chart(highchartsuuid31333569355462676,op);
+                var chart = Highcharts.chart(highchartsuuid41451381176004524,op);
             }
         </script>
     
@@ -463,13 +463,13 @@ new GDemo('#demo-editor')
 <h3 id="npm-i-hexo-tag-wikipedia---save">npm i hexo-tag-wikipedia --save</h3>
 <p><a href="https://github.com/tuanna-hsp/hexo-tag-wikipedia">tuanna-hsp/hexo-tag-wikipedia: Wikipedia tag plugin for your Hexo post</a></p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">{% wikipedia title:GitHub wikiButton:true %}</span><br></pre></td></tr></tbody></table></figure>
-<blockquote id="10050"><script>
+<blockquote id="18034"><script>
     window.addEventListener('load', function() {
       $.getJSON('https://en.wikipedia.org/w/api.php?action=query&origin=*&prop=extracts&format=json&exintro=&titles=GitHub', function(result) {
         const pages = result.query.pages;
         const firstPageIndex = Object.keys(pages)[0];
         const extract = pages[firstPageIndex].extract;
-        $('#10050').prepend(extract);
+        $('#18034').prepend(extract);
       });
     });
   </script><p><a href="https://en.wikipedia.org/wiki/GitHub">Wikipedia</a></p></blockquote>
@@ -570,6 +570,18 @@ See the Pen <a href="https://codepen.io/yuanchuan/pen/mKEmpj/">Flow #1</a> by yu
 <p>Surprisingly, this will show in Typora editor as well.</p>
 <p>Set codeine properties in <em>config.yml file</em>:</p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">codepen:</span><br><span class="line">  userId: "yuanchuan"</span><br><span class="line">  theme: "33713"</span><br><span class="line">  default_tabs: "js,result"</span><br><span class="line">  height: 500</span><br><span class="line">  width: "100%"</span><br></pre></td></tr></tbody></table></figure>
+<p>The following is from my codeine:</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line">&lt;p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="BadQzQm" data-editable="true" data-user="bzhao2718" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"&gt;</span><br><span class="line">  &lt;span&gt;See the Pen &lt;a href="https://codepen.io/bzhao2718/pen/BadQzQm"&gt;</span><br><span class="line">  EmbedTest1&lt;/a&gt; by Jack Zhao (&lt;a href="https://codepen.io/bzhao2718"&gt;@bzhao2718&lt;/a&gt;)</span><br><span class="line">  on &lt;a href="https://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/span&gt;</span><br><span class="line">&lt;/p&gt;</span><br><span class="line">&lt;script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;</span><br></pre></td></tr></tbody></table></figure>
+<p>This is not shown in Typora, but shown on the hexo web pages.</p>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="BadQzQm" data-editable="true" data-user="bzhao2718" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<span>See the Pen <a href="https://codepen.io/bzhao2718/pen/BadQzQm"> EmbedTest1</a> by Jack Zhao (<a href="https://codepen.io/bzhao2718"><span class="citation" data-cites="bzhao2718">[@bzhao2718]</span></a>) on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+<p>This version is a customized height:</p>
+<p class="codepen" data-height="350" data-default-tab="html,result" data-slug-hash="BadQzQm" data-editable="true" data-user="bzhao2718" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<span>See the Pen <a href="https://codepen.io/bzhao2718/pen/BadQzQm"> EmbedTest1</a> by Jack Zhao (<a href="https://codepen.io/bzhao2718"><span class="citation" data-cites="bzhao2718">[@bzhao2718]</span></a>) on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 <h3 id="npm-install-hexo-butterfly-charts---save">npm install hexo-butterfly-charts --save</h3>
 <p>Not used. Use the hexo-statistics-charts instead. It seems it doesn't scale well on mobile Devices.</p>
 <p><a href="https://github.com/kuole-o/hexo-butterfly-charts">kuole-o/hexo-butterfly-charts: https://guole.fun/</a></p>
