@@ -1,4 +1,7 @@
-### **2021-10** (13)  
+### **2021-10** (16)  
+- 2021-10-28 [Spring In Action Notes (4)](https://bzhao2718.github.io/JackBlog.github.io/en/reading-notes/spring-in-action-04/)  
+- 2021-10-28 [Spring In Action Notes (3)](https://bzhao2718.github.io/JackBlog.github.io/en/reading-notes/spring-in-action-notes-03/)  
+- 2021-10-27 [Spring In Action Notes (2)](https://bzhao2718.github.io/JackBlog.github.io/en/reading-notes/spring-in-action-notes-02/)  
 - 2021-10-26 [Spring In Action Reading Notes (1)](https://bzhao2718.github.io/JackBlog.github.io/en/reading-notes/spring_in_action_notes_01/)  
 - 2021-10-19 [Demo Hexo Tags Plugin Plus](https://bzhao2718.github.io/JackBlog.github.io/en/hexo-examples/demo-tags-plus/)  
 - 2021-10-17 [Posts Statistics](https://bzhao2718.github.io/JackBlog.github.io/samples/folderOne/hexo_stats_chart/)  
