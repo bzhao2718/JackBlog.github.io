@@ -1,4 +1,5 @@
-### **2021-11** (2)  
+### **2021-11** (3)  
+- 2021-11-07 [iClub Notes (1)](https://bzhao2718.github.io/JackBlog.github.io/en/reading-notes/SoftwareDev/iClubNotes/iClub-note-01/)  
 - 2021-11-05 [Software Engineer Reading Notes (1)](https://bzhao2718.github.io/JackBlog.github.io/en/reading-notes/SoftwareDev/software-dev-notes-01/)  
 - 2021-11-01 [Spring In Action Notes (7)](https://bzhao2718.github.io/JackBlog.github.io/en/reading-notes/SoftwareDev/SpringInAction/spring-in-action-notes-07/)  
   
@@ -15,8 +16,8 @@
 - 2021-10-16 [Demo Hexo Plugins](https://bzhao2718.github.io/JackBlog.github.io/samples/folderOne/hexo_plugin_demo/)  
 - 2021-10-14 [markmap Test](https://bzhao2718.github.io/JackBlog.github.io/samples/folderOne/markmap_test/)  
 - 2021-10-14 [General Pandoc (folderSubOne)](https://bzhao2718.github.io/JackBlog.github.io/samples/folderOne/folderSubOne/ins_pandoc/)  
-- 2021-10-10 [Hexo Butterfly Markdown Examples](https://bzhao2718.github.io/JackBlog.github.io/samples/hexo_butterfly_markdown/)  
 - 2021-10-10 [Hexo Butterfly Markdown Examples](https://bzhao2718.github.io/JackBlog.github.io/samples/hexo_butterfly_markdown_examples/)  
+- 2021-10-10 [Hexo Butterfly Markdown Examples](https://bzhao2718.github.io/JackBlog.github.io/samples/hexo_butterfly_markdown/)  
 - 2021-10-10 [Ins Hexo Pandoc Markdown](https://bzhao2718.github.io/JackBlog.github.io/samples/ins_hexo_pandoc_markdown/)  
 - 2021-10-10 [Cq_CNN_Intro](https://bzhao2718.github.io/JackBlog.github.io/samples/folderOne/cq_cnn_intro/)  
 - 2021-10-10 [Ins_Hexo File](https://bzhao2718.github.io/JackBlog.github.io/samples/folderOne/ins_hexo/)  
