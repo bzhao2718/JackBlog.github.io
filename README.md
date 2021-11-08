@@ -1,4 +1,6 @@
-### **2021-11** (3)  
+### **2021-11** (5)  
+- 2021-11-08 [JPA Basics Notes (1)](https://bzhao2718.github.io/JackBlog.github.io/en/reading-notes/SoftwareDev/JPABasicsNotes/JPA-basics-notes-01/)  
+- 2021-11-08 [JPA One to One Relationship](https://bzhao2718.github.io/JackBlog.github.io/en/reading-notes/SoftwareDev/JPABasicsNotes/JPA-basics-1to1-mapping/)  
 - 2021-11-07 [iClub Notes (1)](https://bzhao2718.github.io/JackBlog.github.io/en/reading-notes/SoftwareDev/iClubNotes/iClub-note-01/)  
 - 2021-11-05 [Software Engineer Reading Notes (1)](https://bzhao2718.github.io/JackBlog.github.io/en/reading-notes/SoftwareDev/software-dev-notes-01/)  
 - 2021-11-01 [Spring In Action Notes (7)](https://bzhao2718.github.io/JackBlog.github.io/en/reading-notes/SoftwareDev/SpringInAction/spring-in-action-notes-07/)  
